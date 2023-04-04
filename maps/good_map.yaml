@@ -1,0 +1,12 @@
+image: good_map.pgm
+resolution: 0.050000
+origin: [-12.200000, -12.200000, 0.000000]
+negate: 0
+occupied_thresh: 0.1
+free_thresh: 0.3
+move_base:
+ local_costmap: 
+  inflation_layer:
+   cost_scaling_factor: 20
+   inflation_radius: 0.3
+  robot_radius: 0.15

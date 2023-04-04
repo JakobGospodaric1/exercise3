@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="world" pkg="exercise3" type="rins_world.launch" output="screen"/>
+
+  <node name="amcl_simulation" pkg="exercise3" type="amcl_simulation.launch" output="screen"/>
+  
+  <node name="program" pkg="exercise3" type="move_to_location.py" output="screen"/>
+
+</launch>
